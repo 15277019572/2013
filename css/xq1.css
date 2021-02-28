@@ -1,0 +1,180 @@
+#wrap-1 {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #96843a;
+}
+
+.media-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+/* 放大镜 */
+
+.wrap h1 {
+    min-width: 1190px;
+    height: 80px;
+    background-color: #eee;
+}
+
+.main {
+    width: 1190px;
+    margin: 0px auto 0;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.left {
+    float: left;
+    width: 352px;
+    height: 352px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.left img {
+    width: 350px;
+    height: 350px;
+}
+
+.left .mask {
+    width: 175px;
+    height: 175px;
+    background-color: orange;
+    opacity: .4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    cursor: move;
+}
+
+.right {
+    float: left;
+    margin-left: 10px;
+}
+
+.maxBox {
+    position: absolute;
+    left: 360px;
+    top: 54px;
+    z-index: 999;
+    width: 352px;
+    height: 352px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.maxBox img {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+/* 放大镜结束 */
+
+.breadcrumb {
+    margin-bottom: 0px;
+}
+
+.media-body {
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.thj {
+    font-size: 14px;
+}
+
+.thj span {
+    color: red;
+}
+
+.media-heading {
+    width: 600px;
+}
+
+.dao {
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    color: red;
+}
+
+.media-body {
+    padding-top: 17px;
+    padding-left: 25px;
+    padding-bottom: 43px;
+    /* border: 1px solid #ccc; */
+    width: 750px;
+}
+
+.media-body .yh {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.media-body .yh span {
+    color: red;
+    padding-right: 10px;
+}
+
+.panel {
+    /* margin-bottom: 20px; */
+    background-color: #fff;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+.panel-default>.panel-heading {
+    background-color: #fff;
+}
+
+.breadcrumb {
+    background-color: #fff;
+}
+
+.btn-group p {
+    font-size: 14px;
+}
+
+.btn-group p a {
+    color: #005AA0;
+    text-decoration: underline;
+}
+
+.btn-group p span {
+    display: inline-block;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.media-body .btn {
+    margin-left: 5px;
+    margin-right: 30px;
+}
+
+.lazyimg {
+    width: 988px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid #ddd;
+}
+
+.nav {
+    padding-left: 99px;
+    margin-bottom: 1px;
+    list-style: none;
+}

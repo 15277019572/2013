@@ -1,0 +1,219 @@
+#wrap-1 {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #96843a;
+}
+
+.row {
+    margin-top: 3px;
+}
+
+.pagination {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.h5,
+ol {
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.caption .p1 {
+    color: red;
+    font-size: 16px;
+}
+
+.caption .p2 {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.caption p {
+    margin-top: 8px;
+}
+
+.caption .ja {
+    margin-left: 34px;
+    margin-top: 10px;
+}
+
+.caption:hover h5 {
+    color: red;
+    cursor: pointer;
+}
+
+.caption:hover h5 {
+    color: red;
+    cursor: pointer;
+}
+
+.container {
+    padding-left: 0px;
+    margin-top: 30px;
+}
+
+
+/* 分类 */
+
+.shou:hover .left {
+    display: block;
+}
+
+
+/* 左侧导航栏 */
+
+.left {
+    overflow: hidden;
+    width: 190px;
+    float: left;
+    display: none;
+    position: absolute;
+}
+
+.left ul {
+    width: 190px;
+    height: 455px;
+    background-color: #000 !important;
+}
+
+.left ul li {
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.left ul li span {
+    color: #fff;
+}
+
+.left ul li:hover {
+    background-color: #e68600;
+}
+
+.container {
+    padding-left: 0px;
+    width: 988px;
+    margin-left: 217px;
+    margin-top: 30px;
+}
+
+#fen {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.fore {
+    overflow: hidden;
+    background: #f7f7f7;
+    border-bottom: 1px #ee9747 solid;
+    height: 34px;
+}
+
+.fore ul,
+.fore-1 ol {
+    overflow: hidden;
+}
+
+.fore ul li,
+.fore-1 ol li {
+    float: left;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wrap-bx .cur {
+    background: #ee9747;
+}
+
+.fore ul li a {
+    display: inline;
+    font-size: 16px;
+    text-decoration: none;
+    /* padding-left: 3px; */
+    /* padding-right: 15px; */
+    /* color: red; */
+}
+
+.fore ul li:hover a {
+    color: red;
+}
+
+.fore-1 {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-top: 2px;
+    height: 34px;
+    background: #f7f7f7;
+}
+
+.fore-1 ol li .pei {
+    display: none;
+    position: absolute;
+    width: 200px;
+    left: 402px;
+    top: 342px;
+    z-index: 20;
+    background: #ccc;
+    overflow: hidden;
+    /* float: left; */
+}
+
+.fore-1 ol li .pei ol {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+.fore-1 ol li:nth-child(2) {
+    border: 1px solid #ccc;
+}
+
+.fore-1 ol li:nth-child(2):hover .pei {
+    display: block;
+}
+
+.key {
+    width: 100px;
+    float: left;
+    text-align: center;
+    padding: 6px 0;
+    background: #ccc;
+}
+
+.key-r {
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.key-r li {
+    float: left;
+    line-height: 27px;
+    margin-left: 10px;
+    margin-right: 22px;
+    width: 89px;
+    text-align: center;
+}
+
+.key-r li a {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.key-r li:hover a {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}

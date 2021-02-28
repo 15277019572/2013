@@ -1,0 +1,159 @@
+#wrap {
+    width: 100%;
+    overflow: hidden;
+}
+
+#wrap-header {
+    width: 100%;
+    background: #F2F2F2;
+    /* height:26px; */
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+
+#wrap-bx {
+    width: 970px;
+    margin: 0 auto;
+    /* background: #F2F2F2; */
+    overflow: hidden;
+}
+
+ /* 头部开始 */
+ .header-left {
+    line-height: 26px;
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right ul li {
+    float: left;
+    line-height: 26px;
+    padding: 0 10px;
+}
+
+.header-right ul li :hover {
+    color: palevioletred;
+}
+
+.header-left a,
+.header-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-right ul li .r-l {
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    width: 68px;
+    background-color: #F2F2F2;
+}
+
+.li1:hover .r-l {
+    display: block;
+}
+
+/* 微信图片 */
+.weix {
+    position: absolute;
+    top: 26px;
+    border: 1px solid #E9A171;
+    z-index: 20;
+    display: none;
+}
+
+.weix img {
+    width: 240px;
+    height: 240px;
+}
+
+.header-left .a1:hover .weix {
+    display: block;
+}
+
+/* 头部结束 */
+
+.log {
+    margin: 20px 0;
+}
+
+.log-main {
+    border: 4px #ccc solid;
+    overflow: hidden;
+}
+
+.log-img {
+    float: left;
+}
+
+.log-left {
+    overflow: hidden;
+    float: left;
+}
+.form-horizontal {
+    width: 651px;
+    margin-top: 50px;
+    border-right: 1px solid #ccc;
+}
+
+.btn {
+    width: 300px;
+    background: red !important;
+}
+
+#inputEmail3 {
+    width: 300px;
+}
+
+#inputPassword3 {
+    width: 300px;
+}
+#in3{
+    width: 150px;
+}
+.log-right{
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    width: 220px;
+    margin-top:70px;
+    margin-left: 53px;
+    border-bottom: solid 1px #ccc;
+}
+.bt1{
+    width: 134px;
+    line-height: 30px;
+    margin-bottom:10px;
+    outline: none;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px 5px;
+    background-color: #E9E9E9;
+}
+.bt1 a{
+    color: #e33e3d;
+    display: block;
+}
+.ft1{
+    margin-top: 50px;
+}
+.ft-box1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ft-box1 span:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.ft-box2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ft-box2 img {
+    margin-right: 20px;
+}

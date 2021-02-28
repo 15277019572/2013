@@ -1,0 +1,91 @@
+/* 放大镜 */
+.wrap h1 {
+    min-width: 1190px;
+    height: 80px;
+    background-color: #eee;
+}
+
+.main {
+    width: 1190px;
+    margin: 20px auto 0;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.left {
+    float: left;
+    width: 352px;
+    height: 352px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.left img {
+    width: 350px;
+    height: 350px;
+}
+
+.left .mask {
+    width: 175px;
+    height: 175px;
+    background-color: orange;
+    opacity: .4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    cursor: move;
+}
+
+.right {
+    float: left;
+    margin-left: 10px;
+}
+
+.maxBox {
+    position: absolute;
+    left: 360px;
+    top: 54px;
+    z-index: 999;
+    width: 352px;
+    height: 352px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.maxBox img {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* 放大镜结束 */
+.breadcrumb {
+    margin-bottom: 0px;
+}
+
+.media-body {
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.thj {
+    font-size: 14px;
+}
+
+.thj span {
+    color: red;
+}
+.media-heading {
+    width: 600px;
+}
+.dao{
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    color: red;
+}
